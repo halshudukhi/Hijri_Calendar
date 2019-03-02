@@ -1,0 +1,32 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>@sam-shudukhi - Hijri-Calendar</title>
+        <!-- Required -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/xsoh/Hijri.js/Hijri.js"></script>
+        <script src="Hussam_Hijri_Datepicker.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <!-- Not Required -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    </head>
+    <body onload="initWork()" >
+        <div class="jumbotron text-center container mt-5 mb-5">
+            <div class="row mt-3 mb-3 text-center">
+                <div class="col-6">
+                <input type="text" id="datepicker">
+                </div>
+                <div class="col-6">
+                <label for="datepicker">:التاريخ/date</label>
+                </div>
+            </div>
+            <span>Today is: </span><span id="today"></span>
+        </div>
+        <div class="text-center">
+            <p>&copy 2019 @Hussam <a href="https://github.com/sam-shudukhi/Hijri_Calendar">github</a></p>
+        </div>
+    </body>
+</html>
